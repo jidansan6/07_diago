@@ -70,7 +70,7 @@ def web_search(corp: str) -> str:
     return resp.output_text
 
 # ———————— Streamlit UI ————————
-st.set_page_config(page_title="懇親会お手伝いAI「エゴサ君」")
+st.set_page_config(page_title="懇親会AI「エゴサ君」", layout="wide")
 
 # タブを作成
 tab_instructions, tab_app = st.tabs(["使い方", "エゴサ君"])
@@ -95,7 +95,7 @@ with tab_instructions:
 
 # アプリ本体タブ
 with tab_app:
-    st.title("懇親会お手伝いAI「エゴサ君」")
+    st.title("懇親お手伝いAI エゴサ君")
     st.write("名刺を貰ったら相手の会社を簡単に調べられますよ！人名検索は実装中…")
     st.write("---")
 
@@ -128,7 +128,7 @@ with tab_app:
             )
     
     st.markdown("---")
-    st.markdown("↓このアプリを1時間で作れるようになるには？↓")
+    st.markdown("↓このアプリを1時間で作れるようになるには…？↓")
     banner_url = "https://raw.githubusercontent.com/jidansan6/07_diago/b179dbd6478fe3545fe52978d8febf5708e821d7/banner.png"
     link_url ="https://liff.line.me/1657315760-N459xXV3/landing?follow=@143yqdhm&lp=3TE72t&liff_id=1657315760-N459xXV3&_gl=1*awj8rr*_gcl_au*MjA4NjQwNzE4NS4xNzQ3MTEwMDIz*_ga*MTMzMjExMTgyNy4xNzQ3MTEwMDIz*_ga_0PV16Y9CZG*czE3NDcxMTAwMjIkbzEkZzEkdDE3NDcxMTAwMzIkajUwJGwwJGgw"
     st.markdown(
