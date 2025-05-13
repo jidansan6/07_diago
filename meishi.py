@@ -129,7 +129,7 @@ with tab_app:
     
     st.markdown("---")
     st.markdown("### ↓このアプリを1時間で作れるようになるには？↓")
-    banner_url = "https://github.com/jidansan6/07_diago/blob/b179dbd6478fe3545fe52978d8febf5708e821d7/banner.png"
+    banner_url = "https://raw.githubusercontent.com/jidansan6/07_diago/b179dbd6478fe3545fe52978d8febf5708e821d7/banner.png"
     link_url ="https://liff.line.me/1657315760-N459xXV3/landing?follow=@143yqdhm&lp=3TE72t&liff_id=1657315760-N459xXV3&_gl=1*awj8rr*_gcl_au*MjA4NjQwNzE4NS4xNzQ3MTEwMDIz*_ga*MTMzMjExMTgyNy4xNzQ3MTEwMDIz*_ga_0PV16Y9CZG*czE3NDcxMTAwMjIkbzEkZzEkdDE3NDcxMTAwMzIkajUwJGwwJGgw"
     st.markdown(
         f"<a href='{link_url}' target='_blank'><img src='{banner_url}' alt='Learn Streamlit in 1 hour' style='width:100%;'></a>",
