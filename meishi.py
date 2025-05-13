@@ -126,3 +126,13 @@ with tab_app:
             st.error(
                 "氏名または会社名が抽出できませんでした。別の画像を試してください。"
             )
+    
+    st.markdown("---")
+    st.markdown("### ↓このアプリを1時間で作れるようになるには？↓")
+    banner_url = "https://github.com/jidansan6/07_diago/blob/77c27aabddba831188fbb2fcd74aa8b23952b36f/banner.png?raw=true"
+    link_url ="https://liff.line.me/1657315760-N459xXV3/landing?follow=@143yqdhm&lp=3TE72t&liff_id=1657315760-N459xXV3&_gl=1*awj8rr*_gcl_au*MjA4NjQwNzE4NS4xNzQ3MTEwMDIz*_ga*MTMzMjExMTgyNy4xNzQ3MTEwMDIz*_ga_0PV16Y9CZG*czE3NDcxMTAwMjIkbzEkZzEkdDE3NDcxMTAwMzIkajUwJGwwJGgw"
+    st.markdown(
+        f"<a href='{link_url}' target='_blank'><img src='{banner_url}' alt='Learn Streamlit in 1 hour' style='width:100%;'></a>",
+        unsafe_allow_html=True
+    )
+
