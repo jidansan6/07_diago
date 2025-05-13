@@ -14,7 +14,8 @@ build/
 # Ignore system files
 .DS_Store
 Thumbs.db
-.ipynb
+meishi.ipynb
+.ipynb_checkpoints/
 test.png
 
 # Ignore IDE specific files
